@@ -1,10 +1,12 @@
 import React from 'react'
+import ProfileInfo from '../../components/Cards/ProfileInfo'
+import Navbar from '../../components/Navbar'
 
 const Home = () => {
   return (
-    <div>
-      <h1 className="text-red-900">Home Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sint obcaecati impedit cum incidunt reiciendis temporibus delectus eligendi debitis ducimus.</h1>
-    </div>
+    <>
+    <Navbar/>
+    </>
   )
 }
 
